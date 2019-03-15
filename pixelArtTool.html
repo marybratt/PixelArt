@@ -20,13 +20,16 @@
                <td id="fifthColor" onclick="setPenColor('fuchsia')"></td>
            </tr>
        </table>
-       
+   
+<!--- buttons used to clear (return to white) a cell or the whole board--->           
    </div>
       <div>
        <button id="clearCell" onclick="setPenColor('white')">Clear Cell</button>
        <button id="clearBoard" onclick="clearBoardOfColor('white')">Clear Board</button>
     </div>
     
+<!--    set up 8x8 grid to use to create picture - the onclick function will
+        set the grid square to the color chosen above-->
    <div id="artGrid">
     <div class="row">
         <div class="pixel" onclick="setPixelColor(this)"></div>
