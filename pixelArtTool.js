@@ -13,7 +13,7 @@ function setPixelColor(item) {
     item.style.backgroundColor = color;
 }
 // allow user to start over
-function clearBoardOfColor(fontColor) {
+function clearBoardOfColor() {
     "use strict";
     location.reload();
 }

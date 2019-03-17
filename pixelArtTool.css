@@ -5,61 +5,25 @@ body {
 
 h1 {
     text-align: center;
-    font-size: 50px;
+/*    font-size: 30px;*/
 }
 
 h2 {
     text-align: center;
+/*    font-size: 25px;*/
 }
 
-
-table#table1 {
-    height: 50px;
-    width: 250px;
-    margin-left: 636px;
-
+#selectColors {
+    display: block;
+    margin-left: 610px;
 }
 
-#firstColor {
-    background-color: blue;
-    width: 50px;
-    padding: 10px;
-    margin: 5px;
-    border: 5px solid black;
+.jscolor {
+    height: 10px;
+    padding: 5px 0 5px;
+    margin: 10px;
 }
 
-#secondColor {
-    background-color: crimson;
-    width: 50px;
-    padding: 10px;
-    margin: 5px;
-    border: 5px solid black;
-}
-
-#thirdColor {
-    background-color: deeppink;
-    width: 50px;
-    padding: 10px;
-    margin: 5px;
-    border: 5px solid black;
-
-}
-
-#fourthColor {
-    background-color: chartreuse;
-    width: 50px;
-    padding: 10px;
-    margin: 5px;
-    border: 5px solid black;
-}
-
-#fifthColor {
-    background-color: fuchsia;
-    width: 50px;
-    padding: 10px;
-    margin: 5px;
-    border: 5px solid black;
-}
 
 #clearCell {
     background-color: blueviolet;
@@ -95,9 +59,7 @@ table#table1 {
     width: 50px;
     border: 2px solid purple;
     position: relative;
-    top: 25px;
+    top: 10px;
     left: 550px;
 
 }
-# PixelArt pixelArtTool.html pixelArtTool.js
-# PixelArt pixelArtTool.html pixelArtTool.js
